@@ -1,0 +1,49 @@
+Window Object Vs Document Object
+Most of them get confusion  in Window object and Document object. Here we going to know detail view of about it
+Window Object
+The window object represents an open window in a browser.it is a parent of both screen and document, if a document contain frames, the browser creates one window object for the HTML document and one additional window object for each frame. It representing the window in which the script is running, is exposed to javascript code . It is the first object loaded in the Brower. Global objects, functions, namespaces, innerlength and variable of javascript are member of window object. We can access the window from the window only,
+The window is part of  BROWSER OBJECT MODEL(BOM), the properties of the window object cannot be accessed by the document object, every tab in a browser represented by its own window object., each tab of window object having separate javascript code and functions.
+
+Syntax of window object:
+Window.propertyname;
+Window Object Properties 
+Listed some of the window object properties
+document	Returns the Document object for the window.
+frameElement	Returns the frame in which the window runs
+frames	            Returns all window objects running in the window.
+history	            Returns the history object for the window
+innerheight	Returns the height of the window's content area (viewport) including scrollbars
+innerwidth	Returns the width of a window’s content area including scorllbars
+localStorage	Allows to save/value pairs in a web browser with no expiration date
+length	            Returns the Location object for the window
+name	            Sets or returns the name of  a window 
+navigator	Returns the Navigator object for the window.
+opener	            Returns a reference to the window that the window
+outerHeight	Returns the height of the browser window, including toolbars/scrollbars
+outerWidth	Returns the width of the browser window, including toolbars/scrollbars
+parent	            Returns the parent window of the current window
+screen	            Returns the screen object for the window
+screenLeft	Returns the horizontal coordinate of the window relative to the screen
+screenTop	Returns the vertical coordinate of the window relative to the screen
+
+	
+Document Object
+A Document object represents the HTML document that is displayed in that window. The Document object has various properties that refer to other objects which allow access to and modification of document content.The way a document content is accessed and modified is called the Document Object Model, or DOM.
+Document Object Properties
+Syntax:
+document.property_name;
+Listed some of the propesties of Document Object
+activeElement	 Returns the currently active elements in the document.
+body	             Returns the contents of the body element.
+anchors	             Returns all <a> elements that have a name attribute.
+domain	             Returns the domain name of the document server.
+cookie	             Returns the cookie of the current document.
+links	             Returns all <area> and <a> elements that have a href attribute.
+title	             Returns the title element of the document.
+referrer	             Returns the URI of the page that is linked to the current page
+script	             Returns all script elements present in the document.
+
+
+		
+		
+
